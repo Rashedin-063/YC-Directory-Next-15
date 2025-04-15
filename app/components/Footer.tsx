@@ -14,7 +14,32 @@ const Footer = () => {
             Contact Us
           </a>
         </div>
-       
+        <div className='mt-4 md:mt-0'>
+          <a
+            href='https://twitter.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white mx-2'
+          >
+            Twitter
+          </a>
+          <a
+            href='https://facebook.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white mx-2'
+          >
+            Facebook
+          </a>
+          <a
+            href='https://instagram.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white mx-2'
+          >
+            Instagram
+          </a>
+        </div>
       </div>
     </footer>
   );
